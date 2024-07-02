@@ -1,5 +1,5 @@
 // 1. prompt da kiritilgan songacha bo'lgan juft va toq sonlar yig'indisini toping va ular o'rtasidagi farqni ham console ga chiqaring
-let input = prompt("Son kiriting");
+// let input = prompt("Son kiriting");
 let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // function sum(a) {
@@ -21,17 +21,30 @@ let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // 2. shunday function yarating ki argument sifatida berilgan songacha bo'lgan sonlarning yig'indisi qaytarsin (return qilsin)
 
-function sumUpTo(n) {
-  let sum = 0;
+// function sumUpTo(n) {
+//   let sum = 0;
 
-  for (let i = 1; i <= n; i++) {
-    sum += i;
-  }
+//   for (let i = 1; i <= n; i++) {
+//     sum += i;
+//     console.log(sum);
+//   }
 
-  return sum;
-}
+//   return sum;
+// }
 
-// 3. array ni ichidagi sonlar yig'indisini topib beradigan algorithm yarating array sonlardan tashkil topsin
+// sumUpTo(input);
+
+// const sumUpTo = (number) => {
+//   let sum = 0;
+
+//   for (let i = 0; i < number.lenght; i++) {
+//     sum += number[i];
+//     console.log(number[i]);
+//   }
+//   console.log(sum);
+// };
+
+// sumUpTo(number);
 
 // 4. array ichidagi juft sonlar yig'indisini topadigan algorithm yarating
 
